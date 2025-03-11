@@ -47,7 +47,7 @@ public class HomeCinecoSteps {
         System.out.println("Se ha seleccionado la barra de Menú");
     }
 
-    @And("The user selects the option {word} in the menu bar")
+    @And("^The user selects the option (.+) in the menu bar$")
     public void theUserSelectsTheOptionInTheMenuBar(String sectionSelected){
         homeCinecoPage.selectMenuOption(sectionSelected);
         System.out.println("Se ha seleccionado una seccion de navegacion en la barra de Menú");

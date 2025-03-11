@@ -54,5 +54,19 @@ public class HomeCinecoPage extends BasePage {
         waitUntilElementIsClickable(xpathMovie);
         clickElement(xpathMovie);
     }
+
+    public void insertUsername(String username){
+        waitUntilElementIsVisible(userField);
+        write(userField, username);
+    }
+
+    public void insertPassword(String password){
+        waitUntilElementIsVisible(passField);
+        write(passField, password);
+    }
+
+    public void submitLogInForm(){
+        clickElement(submitButton);
+    }
     
 }

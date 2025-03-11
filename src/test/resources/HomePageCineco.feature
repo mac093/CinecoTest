@@ -12,7 +12,7 @@ Feature: Cinecolombia HomePage
   When The user searchs the movie "Flow" in the search box
   Then The movie poster is displayed
  
- 
+
  Scenario Outline: I can access the sections in header bar 
   When The user selects the option <section> in the header
   Then The corresponding <title> is displayed for the <section>

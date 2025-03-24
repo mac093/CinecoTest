@@ -6,7 +6,7 @@ import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.*;
 
-public class APITest {
+public class ApiTest {
 
     @Test
     public void testGETRickAndMortyAPI() {

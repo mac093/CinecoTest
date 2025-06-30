@@ -9,7 +9,7 @@ Feature: Cinecolombia HomePage
 
 
  Scenario: I can search a movie in the search box 
-  When The user searchs the movie "Flow" in the search box
+  When The user searchs the movie "Elio" in the search box
   Then The movie poster is displayed
  
 
